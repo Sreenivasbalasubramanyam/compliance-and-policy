@@ -1,0 +1,73 @@
+# =============================================================================
+# policy_rules.yaml
+#
+# ILLUSTRATIVE, SYNTHETIC compliance policy rule configuration.
+#
+# IMPORTANT DISCLAIMER:
+#   - These rules, thresholds, and the "watchlist" referenced below are entirely
+#     FABRICATED for portfolio/demonstration purposes.
+#   - Thresholds (e.g. the $10,000 large-transaction figure) are loosely modeled
+#     on the *shape* of real-world concepts such as U.S. Currency Transaction
+#     Report (CTR) reporting thresholds and structuring rules under the Bank
+#     Secrecy Act, purely to make the example realistic. They are NOT legal or
+#     regulatory advice, are NOT sourced from any institution's actual policy,
+#     and must NOT be used as a real compliance control.
+#   - The watchlist keyword list is an obviously fake sample (see
+#     data/generate_transactions.py) and is NOT a real sanctions or watchlist
+#     data source (not OFAC, not UN, not any real list).
+#
+# This file exists to demonstrate how a rule-driven transaction monitoring
+# engine can be configured declaratively, independent of application code.
+# =============================================================================
+
+rules:
+
+  - rule_id: STRUCTURING_001
+    name: structuring_threshold
+    description: >
+      Flags accounts with multiple cash transactions below the large-transaction
+      reporting threshold, occurring within a short time window, that in
+      aggregate exceed the threshold - a classic illustrative pattern of
+      "structuring" (breaking up a large transaction to avoid reporting).
+    severity: high
+    params:
+      single_txn_max: 9000          # illustrative "sub-threshold" ceiling
+      window_hours: 24
+      min_txn_count: 3
+      aggregate_min: 10000
+      transaction_types: ["cash_deposit", "cash_withdrawal"]
+
+  - rule_id: LARGE_TXN_001
+    name: large_transaction_reporting_threshold
+    description: >
+      Flags any single transaction at or above an illustrative large-transaction
+      reporting threshold, loosely modeled on the shape of CTR-style reporting
+      thresholds for large cash transactions. NOT actual regulatory guidance.
+    severity: medium
+    params:
+      threshold_amount: 10000
+      transaction_types: ["cash_deposit", "cash_withdrawal", "wire_transfer"]
+
+  - rule_id: VELOCITY_001
+    name: velocity_rule
+    description: >
+      Flags accounts with an unusually high number of transactions within a
+      single day, which can indicate account takeover, money-mule activity,
+      or automated abuse.
+    severity: medium
+    params:
+      window_hours: 24
+      max_transaction_count: 8
+
+  - rule_id: WATCHLIST_001
+    name: watchlist_keyword_screening
+    description: >
+      Simple keyword screening of the counterparty_name field against a small,
+      OBVIOUSLY FAKE sample watchlist (see data/generate_transactions.py -
+      FAKE_WATCHLIST_KEYWORDS). This is a naive substring/keyword match for
+      demonstration only and is NOT representative of real sanctions/watchlist
+      screening (which uses fuzzy matching, transliteration handling, list
+      versioning, and real regulatory data sources such as OFAC SDN).
+    severity: critical
+    params:
+      case_sensitive: false
