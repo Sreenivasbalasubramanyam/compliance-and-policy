@@ -1,0 +1,83 @@
+rule_id,rule_name,severity,transaction_id,account_id,timestamp,reason
+STRUCTURING_001,structuring_threshold,high,TXN-EB684B76B2,ACCT-1004,2026-06-08 05:51:48,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-4D9C440569,ACCT-1004,2026-06-08 09:00:00,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-34148B1FA9,ACCT-1004,2026-06-08 11:35:17,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-D762762661,ACCT-1004,2026-06-08 12:00:00,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-7F8E2C3487,ACCT-1004,2026-06-08 15:00:00,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-518F0F224D,ACCT-1004,2026-06-08 15:00:00,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-169FB5966E,ACCT-1004,2026-06-08 23:18:17,"7 sub-threshold cash transactions totaling $25,650.73 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-C1175E2EA1,ACCT-1011,2026-06-08 20:19:48,"5 sub-threshold cash transactions totaling $21,741.86 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-48BB020431,ACCT-1011,2026-06-09 09:00:00,"5 sub-threshold cash transactions totaling $21,741.86 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-A5860C5743,ACCT-1011,2026-06-09 13:00:00,"5 sub-threshold cash transactions totaling $21,741.86 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-705ACD5605,ACCT-1011,2026-06-09 15:37:27,"5 sub-threshold cash transactions totaling $21,741.86 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-41840054D7,ACCT-1011,2026-06-09 20:00:00,"5 sub-threshold cash transactions totaling $21,741.86 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-97B767D041,ACCT-1012,2026-06-09 09:00:00,"3 sub-threshold cash transactions totaling $17,888.40 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-897F255AC1,ACCT-1012,2026-06-09 18:00:00,"3 sub-threshold cash transactions totaling $17,888.40 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-0255E84A48,ACCT-1012,2026-06-09 22:00:00,"3 sub-threshold cash transactions totaling $17,888.40 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-794F17DF34,ACCT-1040,2026-06-12 09:00:00,"5 sub-threshold cash transactions totaling $23,733.12 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-C5A28A7173,ACCT-1040,2026-06-12 15:00:00,"5 sub-threshold cash transactions totaling $23,733.12 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-BECB088CBD,ACCT-1040,2026-06-12 16:00:00,"5 sub-threshold cash transactions totaling $23,733.12 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-89A2374784,ACCT-1040,2026-06-13 02:00:00,"5 sub-threshold cash transactions totaling $23,733.12 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+STRUCTURING_001,structuring_threshold,high,TXN-350E1262C4,ACCT-1040,2026-06-13 03:38:36,"5 sub-threshold cash transactions totaling $23,733.12 within 24h (each <= $9,000.00), exceeding aggregate threshold of $10,000.00."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-BFF498CCBF,ACCT-1000,2026-06-12 11:00:00,"Transaction amount $39,784.74 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: wire_transfer)."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-5D2A0B979E,ACCT-1021,2026-06-09 08:00:00,"Transaction amount $32,798.96 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: cash_deposit)."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-FC4E5589B4,ACCT-1037,2026-06-08 14:00:00,"Transaction amount $23,063.71 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: wire_transfer)."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-A90BCCB3CD,ACCT-1047,2026-06-10 13:00:00,"Transaction amount $34,782.09 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: cash_withdrawal)."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-0EF625A6E0,ACCT-1049,2026-06-07 14:00:00,"Transaction amount $32,800.06 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: wire_transfer)."
+LARGE_TXN_001,large_transaction_reporting_threshold,medium,TXN-67B55BC01C,ACCT-1057,2026-06-05 08:00:00,"Transaction amount $29,249.12 meets/exceeds the illustrative large-transaction reporting threshold of $10,000.00 (type: cash_deposit)."
+VELOCITY_001,velocity_rule,medium,TXN-35CD73A7C9,ACCT-1035,2026-06-11 15:38:01,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-DA18BE99A5,ACCT-1035,2026-06-11 20:45:04,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-5474F7E29B,ACCT-1035,2026-06-12 01:58:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-CC45E23A5A,ACCT-1035,2026-06-12 02:41:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-E378C77BC2,ACCT-1035,2026-06-12 03:45:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-DABC7D2A6B,ACCT-1035,2026-06-12 05:02:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-86426CE1BD,ACCT-1035,2026-06-12 05:19:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-D9530D533A,ACCT-1035,2026-06-12 06:10:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-E67295D9E7,ACCT-1035,2026-06-12 08:47:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-87E7B54BDD,ACCT-1035,2026-06-12 09:33:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-5DA92AA98A,ACCT-1035,2026-06-12 10:06:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-CF2666AD5E,ACCT-1035,2026-06-12 12:09:22,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-8695028E62,ACCT-1035,2026-06-12 20:45:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-AFC5A3506A,ACCT-1035,2026-06-12 20:55:00,12 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-2975CF4B94,ACCT-1039,2026-06-01 01:59:56,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-81E61FD507,ACCT-1039,2026-06-01 04:20:26,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-60352FAF21,ACCT-1039,2026-06-01 05:09:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-1BC0C68D22,ACCT-1039,2026-06-01 07:57:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-4061463BB0,ACCT-1039,2026-06-01 08:20:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-910A14C51F,ACCT-1039,2026-06-01 09:17:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-F8B387D50D,ACCT-1039,2026-06-01 09:40:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-08446A3814,ACCT-1039,2026-06-01 10:29:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-DB29B63181,ACCT-1039,2026-06-01 13:38:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-86472FC361,ACCT-1039,2026-06-01 16:16:27,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-8027A5EAB2,ACCT-1039,2026-06-01 18:32:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-AC266EF4E3,ACCT-1039,2026-06-01 18:37:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-5E34038F0D,ACCT-1039,2026-06-01 18:38:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-E0A24F3238,ACCT-1039,2026-06-01 21:37:00,14 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-5C30740262,ACCT-1043,2026-06-10 18:20:25,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-629015729B,ACCT-1043,2026-06-11 00:09:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-940CB72795,ACCT-1043,2026-06-11 02:56:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-D8251A114E,ACCT-1043,2026-06-11 04:24:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-2A37F0DD66,ACCT-1043,2026-06-11 04:26:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-2B7C3E6350,ACCT-1043,2026-06-11 07:55:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-38C46895A7,ACCT-1043,2026-06-11 10:10:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-4891B12F9C,ACCT-1043,2026-06-11 10:21:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-1D30138AED,ACCT-1043,2026-06-11 10:24:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-794187A3DE,ACCT-1043,2026-06-11 11:46:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-DF013BAB96,ACCT-1043,2026-06-11 12:26:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-F0DC330E1A,ACCT-1043,2026-06-11 14:52:35,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-381E06FA0D,ACCT-1043,2026-06-11 15:55:19,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-7401F073F8,ACCT-1043,2026-06-11 17:03:36,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-EA1BCE3C87,ACCT-1043,2026-06-11 18:17:00,15 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-994C4B4700,ACCT-1043,2026-06-11 19:03:00,18 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-B86BB60365,ACCT-1043,2026-06-11 20:55:00,18 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-FD8DADE348,ACCT-1043,2026-06-11 21:22:11,18 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-B0391CB6BD,ACCT-1043,2026-06-11 22:22:31,18 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-3F224D27E8,ACCT-1043,2026-06-12 00:32:04,18 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-E1313787C3,ACCT-1043,2026-06-12 06:23:38,16 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-A440E30491,ACCT-1043,2026-06-12 10:00:52,16 transactions within 24h exceeds max allowed count of 8.
+VELOCITY_001,velocity_rule,medium,TXN-8E805631DF,ACCT-1043,2026-06-12 17:10:01,9 transactions within 24h exceeds max allowed count of 8.
+WATCHLIST_001,watchlist_keyword_screening,critical,TXN-B5C2AD0DA7,ACCT-1005,2026-06-05 14:00:00,Counterparty name 'Northwind Fictitious Holdings' matches fake sample watchlist keyword 'northwind fictitious holdings'.
+WATCHLIST_001,watchlist_keyword_screening,critical,TXN-CCB1B2FEB1,ACCT-1017,2026-06-01 09:00:00,Counterparty name 'example sanctioned test co' matches fake sample watchlist keyword 'example sanctioned test co'.
+WATCHLIST_001,watchlist_keyword_screening,critical,TXN-F7546C6535,ACCT-1046,2026-06-13 09:00:00,Counterparty name 'Northwind Fictitious Holdings' matches fake sample watchlist keyword 'northwind fictitious holdings'.
+WATCHLIST_001,watchlist_keyword_screening,critical,TXN-27BD1F7061,ACCT-1049,2026-06-07 14:00:00,Counterparty name 'faux global remit demo' matches fake sample watchlist keyword 'faux global remit demo'.
+WATCHLIST_001,watchlist_keyword_screening,critical,TXN-4BBB35C94F,ACCT-1051,2026-06-14 09:00:00,Counterparty name 'Northwind Fictitious Holdings' matches fake sample watchlist keyword 'northwind fictitious holdings'.

@@ -1,0 +1,23 @@
+======================================================================
+TRANSACTION COMPLIANCE MONITORING - SUMMARY REPORT
+(SYNTHETIC DATA - portfolio demonstration only, not a real compliance report)
+======================================================================
+Generated: 2026-07-29T10:34:21
+
+Total transactions screened: 1716
+Total exceptions flagged:    82
+Unique accounts flagged:     17
+
+Exceptions by rule:
+  - velocity_rule: 51
+  - structuring_threshold: 20
+  - large_transaction_reporting_threshold: 6
+  - watchlist_keyword_screening: 5
+
+Exceptions by severity:
+  - medium: 57
+  - high: 20
+  - critical: 5
+
+Full exception detail written to: outputs/compliance_exceptions.csv
+======================================================================
